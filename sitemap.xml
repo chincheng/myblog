@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://chincheng.github.io/myblog/blog/hugo-docker/</loc>
+    <lastmod>2018-11-01T08:41:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chincheng.github.io/myblog/blog/first-post/</loc>
+    <lastmod>2018-10-31T08:02:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chincheng.github.io/myblog/categories/blog/</loc>
+    <lastmod>2018-11-01T08:41:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chincheng.github.io/myblog/blog/</loc>
+    <lastmod>2018-11-01T08:41:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chincheng.github.io/myblog/categories/</loc>
+    <lastmod>2018-11-01T08:41:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chincheng.github.io/myblog/</loc>
+    <lastmod>2018-11-01T08:41:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chincheng.github.io/myblog/tags/project/</loc>
+    <lastmod>2018-11-01T08:41:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chincheng.github.io/myblog/tags/</loc>
+    <lastmod>2018-11-01T08:41:42+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
