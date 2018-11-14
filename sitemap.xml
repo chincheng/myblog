@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://chincheng.github.io/myblog/blog/rasp-cm3/</loc>
+    <lastmod>2018-11-14T07:37:50+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chincheng.github.io/myblog/blog/hugo-docker/</loc>
     <lastmod>2018-11-01T08:41:42+00:00</lastmod>
   </url>
@@ -14,25 +19,25 @@
   
   <url>
     <loc>https://chincheng.github.io/myblog/categories/blog/</loc>
-    <lastmod>2018-11-01T08:41:42+00:00</lastmod>
+    <lastmod>2018-11-14T07:37:50+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://chincheng.github.io/myblog/blog/</loc>
-    <lastmod>2018-11-01T08:41:42+00:00</lastmod>
+    <lastmod>2018-11-14T07:37:50+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://chincheng.github.io/myblog/categories/</loc>
-    <lastmod>2018-11-01T08:41:42+00:00</lastmod>
+    <lastmod>2018-11-14T07:37:50+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://chincheng.github.io/myblog/</loc>
-    <lastmod>2018-11-01T08:41:42+00:00</lastmod>
+    <lastmod>2018-11-14T07:37:50+00:00</lastmod>
     <priority>0</priority>
   </url>
   
