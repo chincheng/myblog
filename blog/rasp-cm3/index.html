@@ -139,6 +139,7 @@
 <li><a href="#如何將-os-image-寫進-raspberry-pi-cm1-cm3">如何將 OS image 寫進 Raspberry Pi CM1/CM3</a>
 <ul>
 <li><a href="#準備工作">準備工作</a></li>
+<li><a href="#writing-to-the-emmc-windows">Writing to the eMMC - Windows</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -159,7 +160,7 @@
 <li>After a few seconds, the Compute Module eMMC will pop up under Windows as a disk (USB mass storage device).</li>
 </ol>
 
-<p>## Writing to the eMMC - Windows</p>
+<h2 id="writing-to-the-emmc-windows">Writing to the eMMC - Windows</h2>
 
 <p>After rpiboot completes, a new USB mass storage drive will appear in Windows. We recommend following this guide and using Win32DiskImager to write images to the drive, rather than trying to use /dev/sda etc. from Cygwin.</p>
 
