@@ -16,7 +16,7 @@
       <pubDate>Wed, 14 Nov 2018 07:37:50 +0000</pubDate>
       
       <guid>https://chincheng.github.io/myblog/blog/rasp-cm3/</guid>
-      <description>如何將 OS image 寫進 Raspberry Pi CM1/CM3 It is more easy by using Linux system
+      <description>How to flash OS image into SD for Raspberry Pi CM3 It is more easy by using Linux system
 items needed in installing process:
  &amp;ldquo;rpiboot&amp;rdquo; &amp;ldquo;Raspbian lite&amp;rdquo; image: Do not use image for desktop because CM1/CM3 only has 4GB eMMC. It can be downloaded from official site, https://www.raspberrypi.org/downloads/raspbian/  Compile &amp;ldquo;rpiboot&amp;rdquo; ( use Ubuntu as example)
  Open a terminal in Linux host PC Install packages needed:  sudo apt-get update sudo apt-get install -y git make gcc libusb-1.</description>
