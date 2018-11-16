@@ -22,21 +22,21 @@
     <title>Raspberry Pi CM3 - Chincheng&#39;s Site</title>
     
 
-<meta name="description" content="如何將 OS image 寫進 Raspberry Pi CM1/CM3 準備工作  Download and run the Windows installer to install the drivers and boot tool. Plug your host PC USB into the CMIO USB SLAVE port, making sure J4 is set to the EN position. Apply power to the CMIO board; Windows should now find the hardware and install the driver. Once the driver installation is complete, run the RPiBoot.exe tool that was previously installed.">
+<meta name="description" content="如何將 OS image 寫進 Raspberry Pi CM1/CM3 It is more easy by using Linux systemitems needed in installing process: &amp;ldquo;rpiboot&amp;rdquo; &amp;ldquo;Raspbian lite&amp;rdquo; image: Do not use image for desktop because CM1/CM3 only has 4GB eMMC. It can be downloaded from official site, https://www.raspberrypi.org/downloads/raspbian/  Compile &amp;ldquo;rpiboot&amp;rdquo; ( use Ubuntu as example) Open a terminal in Linux host PC Install packages needed:  sudo apt-get update sudo apt-get install -y git make gcc libusb-1.">
 
 <meta property="og:title" content="Raspberry Pi CM3 - Chincheng&#39;s Site">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://chincheng.github.io/myblog/blog/rasp-cm3/">
 <meta property="og:image" content="https://chincheng.github.io/myblog/images/raspberry.jpg">
 <meta property="og:site_name" content="Chincheng&#39;s Site">
-<meta property="og:description" content="如何將 OS image 寫進 Raspberry Pi CM1/CM3 準備工作  Download and run the Windows installer to install the drivers and boot tool. Plug your host PC USB into the CMIO USB SLAVE port, making sure J4 is set to the EN position. Apply power to the CMIO board; Windows should now find the hardware and install the driver. Once the driver installation is complete, run the RPiBoot.exe tool that was previously installed.">
+<meta property="og:description" content="如何將 OS image 寫進 Raspberry Pi CM1/CM3 It is more easy by using Linux systemitems needed in installing process: &amp;ldquo;rpiboot&amp;rdquo; &amp;ldquo;Raspbian lite&amp;rdquo; image: Do not use image for desktop because CM1/CM3 only has 4GB eMMC. It can be downloaded from official site, https://www.raspberrypi.org/downloads/raspbian/  Compile &amp;ldquo;rpiboot&amp;rdquo; ( use Ubuntu as example) Open a terminal in Linux host PC Install packages needed:  sudo apt-get update sudo apt-get install -y git make gcc libusb-1.">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="Chincheng&#39;s Site">
 <meta name="twitter:url" content="https://chincheng.github.io/myblog/blog/rasp-cm3/">
 <meta name="twitter:title" content="Raspberry Pi CM3 - Chincheng&#39;s Site">
-<meta name="twitter:description" content="如何將 OS image 寫進 Raspberry Pi CM1/CM3 準備工作  Download and run the Windows installer to install the drivers and boot tool. Plug your host PC USB into the CMIO USB SLAVE port, making sure J4 is set to the EN position. Apply power to the CMIO board; Windows should now find the hardware and install the driver. Once the driver installation is complete, run the RPiBoot.exe tool that was previously installed.">
+<meta name="twitter:description" content="如何將 OS image 寫進 Raspberry Pi CM1/CM3 It is more easy by using Linux systemitems needed in installing process: &amp;ldquo;rpiboot&amp;rdquo; &amp;ldquo;Raspbian lite&amp;rdquo; image: Do not use image for desktop because CM1/CM3 only has 4GB eMMC. It can be downloaded from official site, https://www.raspberrypi.org/downloads/raspbian/  Compile &amp;ldquo;rpiboot&amp;rdquo; ( use Ubuntu as example) Open a terminal in Linux host PC Install packages needed:  sudo apt-get update sudo apt-get install -y git make gcc libusb-1.">
 <meta name="twitter:image" content="https://chincheng.github.io/myblog/images/raspberry.jpg">
 
 
@@ -71,7 +71,10 @@
         "height": 60
       }
     },
-    "description": "如何將 OS image 寫進 Raspberry Pi CM1/CM3 準備工作  Download and run the Windows installer to install the drivers and boot tool. Plug your host PC USB into the CMIO USB SLAVE port, making sure J4 is set to the EN position. Apply power to the CMIO board; Windows should now find the hardware and install the driver. Once the driver installation is complete, run the RPiBoot.exe tool that was previously installed."
+    "description": "如何將 OS image 寫進 Raspberry Pi CM1/CM3 It is more easy by using Linux system
+items needed in installing process:
+ &ldquo;rpiboot&rdquo; &ldquo;Raspbian lite&rdquo; image: Do not use image for desktop because CM1/CM3 only has 4GB eMMC. It can be downloaded from official site, https://www.raspberrypi.org/downloads/raspbian/  Compile &ldquo;rpiboot&rdquo; ( use Ubuntu as example)
+ Open a terminal in Linux host PC Install packages needed:  sudo apt-get update sudo apt-get install -y git make gcc libusb-1."
   }
 </script>
 
@@ -136,11 +139,7 @@
   <div class="toc">
     <nav id="TableOfContents">
 <ul>
-<li><a href="#如何將-os-image-寫進-raspberry-pi-cm1-cm3">如何將 OS image 寫進 Raspberry Pi CM1/CM3</a>
-<ul>
-<li><a href="#準備工作">準備工作</a></li>
-<li><a href="#writing-to-the-emmc-windows">Writing to the eMMC - Windows</a></li>
-</ul></li>
+<li><a href="#如何將-os-image-寫進-raspberry-pi-cm1-cm3">如何將 OS image 寫進 Raspberry Pi CM1/CM3</a></li>
 </ul>
 </nav>
   </div>
@@ -150,21 +149,66 @@
 
 <h1 id="如何將-os-image-寫進-raspberry-pi-cm1-cm3">如何將 OS image 寫進 Raspberry Pi CM1/CM3</h1>
 
-<h2 id="準備工作">準備工作</h2>
+<p>It is more easy by using Linux system</p>
+
+<p>items needed in installing process:</p>
+
+<ul>
+<li>&ldquo;rpiboot&rdquo;</li>
+<li>&ldquo;Raspbian lite&rdquo; image: Do not use image for desktop because CM1/CM3 only has 4GB eMMC. It can be downloaded from official site, <a href="https://www.raspberrypi.org/downloads/raspbian/">https://www.raspberrypi.org/downloads/raspbian/</a></li>
+</ul>
+
+<p>Compile &ldquo;rpiboot&rdquo; ( use Ubuntu as example)</p>
 
 <ol>
-<li>Download and run the Windows installer to install the drivers and boot tool.</li>
-<li>Plug your host PC USB into the CMIO USB SLAVE port, making sure J4 is set to the EN position.</li>
-<li>Apply power to the CMIO board; Windows should now find the hardware and install the driver.</li>
-<li>Once the driver installation is complete, run the RPiBoot.exe tool that was previously installed.</li>
-<li>After a few seconds, the Compute Module eMMC will pop up under Windows as a disk (USB mass storage device).</li>
+<li>Open a terminal in Linux host PC</li>
+<li>Install packages needed:
+
+<ul>
+<li>sudo apt-get update</li>
+<li>sudo apt-get install -y git make gcc libusb-1.0-0-dev</li>
+<li>git clone &ndash;depth=1 <a href="https://github.com/raspberrypi/usbboot">https://github.com/raspberrypi/usbboot</a></li>
+<li>cd usbboot</li>
+<li>make</li>
+</ul></li>
 </ol>
 
-<h2 id="writing-to-the-emmc-windows">Writing to the eMMC - Windows</h2>
+<p><span style="color:red">Do not power up yet.</span></p>
 
-<p>After rpiboot completes, a new USB mass storage drive will appear in Windows. We recommend following this guide and using Win32DiskImager to write images to the drive, rather than trying to use /dev/sda etc. from Cygwin.</p>
+<ol>
+<li>Make sure that J4 (USB SLAVE BOOT ENABLE) is set to the &lsquo;EN&rsquo; position.</li>
+<li>Use a micro USB cable to connect the IO board to the host device.</li>
+<li>Run the usbboot tool: (wait for a connection)
 
-<p>Once you have written an OS image, make sure J4 (USB SLAVE BOOT ENABLE) is set to the disabled position and/or nothing is plugged into the USB slave port. Power cycling the IO board should result in the Compute Module booting the OS image from eMMC.</p>
+<ul>
+<li>sudo ./rpiboot</li>
+</ul></li>
+<li><span style="color:red"><strong>Power up the board now.</strong></span></li>
+<li>After connection, it will be as a mass storage device. Use the command,lsblk , to find /dev/sdX.</li>
+</ol>
+
+<p>Flash image file&rdquo;</p>
+
+<ul>
+<li><p>sudo dd if=<raw_os_image_of_your_choice.img> of=/dev/sdX bs=4MiB</p>
+
+<ul>
+<li>example: &ldquo; sudo dd if=2018-04-18-raspbian-stretch-lite.img of=/dev/sdb bs=4MiB &ldquo;</li>
+</ul></li>
+
+<li><p><span style="color:red">It takes time to flash the device. Be patient to wait.</span></p></li>
+
+<li><p>After flashing completely, unload the device, then power off the board</p></li>
+</ul>
+
+<p>Boot Raspberry Pi CM1/CM3</p>
+
+<ul>
+<li>Make sure J4 (USB SLAVE BOOT ENABLE) is set to the disabled position and/or nothing is plugged into the USB slave port.</li>
+<li>plug usb hub(usb-to-LAN, keyboard, mouse) and HDMI</li>
+<li>Power on the device.</li>
+<li>login UN=pi, PASSWORD=raspberry</li>
+</ul>
 </div>
 
   <footer class="article-footer">

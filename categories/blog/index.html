@@ -76,7 +76,10 @@
         
       </ul>
 
-      <div class="summary">如何將 OS image 寫進 Raspberry Pi CM1/CM3 準備工作  Download and run the Windows installer to install the drivers and boot tool. Plug your host PC USB into the CMIO USB SLAVE port, making sure J4 is set to the EN position. Apply power to the CMIO board; Windows should now find the hardware and install the driver. Once the driver installation is complete, run the RPiBoot.exe tool that was previously installed.</div>
+      <div class="summary">如何將 OS image 寫進 Raspberry Pi CM1/CM3 It is more easy by using Linux system
+items needed in installing process:
+ &ldquo;rpiboot&rdquo; &ldquo;Raspbian lite&rdquo; image: Do not use image for desktop because CM1/CM3 only has 4GB eMMC. It can be downloaded from official site, https://www.raspberrypi.org/downloads/raspbian/  Compile &ldquo;rpiboot&rdquo; ( use Ubuntu as example)
+ Open a terminal in Linux host PC Install packages needed:  sudo apt-get update sudo apt-get install -y git make gcc libusb-1.</div>
     </div>
   </a>
 </article>
